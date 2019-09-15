@@ -112,7 +112,7 @@ namespace Employee_Hierarchy
 
                         else
                         {
-                            Console.WriteLine("ERROR: Manager MUST be an employee !");
+                            //Console.WriteLine("ERROR: Manager MUST be an employee !");
                             break;
                         }
 
