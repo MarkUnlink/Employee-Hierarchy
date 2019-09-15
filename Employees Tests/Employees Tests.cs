@@ -1,9 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+using Employee_Hierarchy;
 
 namespace Employees_Tests
 {
@@ -11,13 +8,13 @@ namespace Employees_Tests
     public class Test_Employees
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestBudget()
         {
-            var text = File.ReadAllLines("../../../test.txt");
+            var text = File.ReadAllLines("D:\\test.csv");
 
             Employees emp = new Employees(text);
-            Assert.Equal(3300, employees.SalaryBudget("Employee1"));
-            Assert.Equal(1000, employees.SalaryBudget("Employee2"));
+            Assert.Equals(3300, emp.Budget("Employee1"));
+            Assert.Equals(1000, emp.Budget("Employee2"));
         }
     }
 }

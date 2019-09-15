@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Employee_Hierarchy
 {
-    class Employees
+    public class Employees
     {
         public List<string> emps = new List<string>();
         public List<KeyValuePair<string, string>> employees = new List<KeyValuePair<string, string>>();
