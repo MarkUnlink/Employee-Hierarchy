@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee Hierarchy", "Employee Hierarchy\Employee Hierarchy.csproj", "{ACBDE907-F1EF-4619-BE08-5DC666B4B35A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee Hierarchy", "Employee Hierarchy\Employee Hierarchy.csproj", "{ACBDE907-F1EF-4619-BE08-5DC666B4B35A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees Tests", "Employees Tests\Employees Tests.csproj", "{FE6CC649-F54D-4F4E-BC25-3F1643AA7CFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ACBDE907-F1EF-4619-BE08-5DC666B4B35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACBDE907-F1EF-4619-BE08-5DC666B4B35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACBDE907-F1EF-4619-BE08-5DC666B4B35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6CC649-F54D-4F4E-BC25-3F1643AA7CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6CC649-F54D-4F4E-BC25-3F1643AA7CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6CC649-F54D-4F4E-BC25-3F1643AA7CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6CC649-F54D-4F4E-BC25-3F1643AA7CFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
