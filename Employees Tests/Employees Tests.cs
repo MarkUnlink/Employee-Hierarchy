@@ -10,11 +10,11 @@ namespace Employees_Tests
         [TestMethod]
         public void TestBudget()
         {
-            var text = File.ReadAllLines("D:\\test.csv");
+            var text = File.ReadAllLines("C:\\test.txt");
 
             Employees emp = new Employees(text);
-            Assert.Equals(3300, emp.Budget("Employee1"));
-            Assert.Equals(1000, emp.Budget("Employee2"));
+            Assert.AreEqual(1800, emp.Budget("Employee1"));
+            Assert.AreEqual(500, emp.Budget("Employee2"));
         }
     }
 }
